@@ -1,0 +1,111 @@
+#contact{
+    width: 100%;
+    @include borderBottom;
+
+    h2{
+        @include flexCenter;
+        font-weight: 600;
+        font-size: 3rem;
+        padding: 15px;
+        color: $primary-color;
+        border-bottom: 3px solid $primary-color;
+        width: 20%;
+        margin: 0px auto; 
+    }
+
+    #contact-info{
+
+        p{
+            text-align: center;
+            color: $primary-color;
+            padding: 15px;
+            font-size: $font-size;
+        }
+    }
+
+    #contact-wrapper{
+        width: 50%;
+        justify-content: center;
+        align-items: center;
+        margin: 0px auto;
+        padding: 20px;
+        flex-wrap: wrap;
+        @include flexCenter;
+
+        #contact-left{
+            border: 3px solid $primary-color;
+            border-radius: 100% 0% 100% 0% / 0% 54% 46% 100%;
+            background-color: black;
+
+            form{
+                padding: 40px;
+                line-height: 2;
+
+                input:focus {
+                    outline: none;
+                    border-color: white;
+                    box-shadow: 0 0 10px white;
+                  }
+
+                  textarea:focus {
+                    outline: none;
+                    border-color: white;
+                    box-shadow: 0 0 10px white;
+                  }
+
+                input[type=text]{
+                    @include formStyle;
+                }
+                input[type=email]{
+                    @include formStyle;
+                }
+                input[type=tel]{
+                    @include formStyle;
+                }
+                
+                textarea{
+                    resize: none;
+                    height: 100px;
+                    font-size: 15px;
+                    background-color: $primary-color;
+                    transition: all 0.30s ease-in-out;
+                    border-radius: 10px;
+                }
+
+                label{
+                    color: $primary-color;
+                }
+
+                input[type=submit]{
+                    background-color: transparent;
+                    outline: none;
+                    border: 1px solid $primary-color;
+                    transition: all 0.2s;
+                    height: 40px;
+                    border-radius: 5px;
+                    padding: 10px 15px;
+                    margin-bottom: 30px;
+                    cursor: pointer;
+                    width: 42%;
+                    border-color: $primary-color;
+                    font-size: 1rem;
+                    color: $font-color;
+
+                    &:hover{
+                        background-color: $primary-color;
+                        color: black;
+                    }
+                }
+            }
+
+        }
+
+        #contact-right{
+            margin-left: 50px;
+            padding: 10px;
+            border-radius: 100% 0% 99% 1% / 0% 100% 0% 100%;
+            border: 3px solid $primary-color;
+            background-color: black;
+        }
+    }
+}

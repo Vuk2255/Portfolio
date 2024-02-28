@@ -27,6 +27,20 @@ header{
                     a{
                         color: $font-color;
                         font-size: 20px;
+                        transition: all 50ms linear 0s;
+
+                        &::before{
+                            transition: all 0.5s ease;
+                        }
+
+                        &:hover{
+                            border-bottom: 2px solid $primary-color;
+                        }
+
+                        &::after{
+                            transition: all 0.8s ease-out;
+                        }
+
                     }
                 }
             }

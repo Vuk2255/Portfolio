@@ -1,0 +1,44 @@
+footer{
+    background-color: black;
+    @include flexCenter;
+    justify-content: space-between;
+
+    p{
+        color: $primary-color;
+    }
+
+    #left{
+        #socials2{
+            padding: 10px;
+            
+            a{
+                color: $primary-color;
+                font-weight: 500;
+                font-size: 30px;
+                transition-duration: 0.4s;
+    
+                &:hover{
+                    color: $secondary-color;
+                }
+            }
+        }
+    }
+
+    #right{
+
+        #socials3{
+            padding: 10px;        
+            
+            a{
+                color: $primary-color;
+                font-weight: 500;
+                font-size: 30px;
+                transition-duration: 0.4s;
+    
+                &:hover{
+                    color: $secondary-color;
+                }
+            }
+        }
+    }
+}
