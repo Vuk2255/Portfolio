@@ -1,12 +1,16 @@
 #wrapper-skills{
     width: 100%;
-    height: 600px;
+    height: 900px;
 
     h2{
         @include flexCenter;
         font-weight: 600;
         font-size: 3rem;
         padding: 15px;
+        color: $primary-color;
+        border-bottom: 3px solid $primary-color;
+        width: 20%;
+        margin: 0px auto; 
     }
 
     #skills{
@@ -45,6 +49,54 @@
             .middle{
                 text-align: center;
                 font-size: 15px;
+            }
+        }
+    }
+
+    #progress{
+        position: relative;
+        @include flexCenter;
+        flex-wrap: wrap;
+        top: 80px;
+        gap:70px;
+
+        .circle{
+            position: relative;
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            color: white;
+            background: #060606 linear-gradient(to right, transparent 30%, $primary-color);
+            transition: transform .2s;
+
+            &:hover{
+                transform: scale(1.1);
+            }
+
+            h3{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                font-size: 2.5em;
+                z-index: 1;
+                font-weight: 500;
+            }
+
+            span{
+                font-size: 0.65em;
+                font-weight: 400;
+            }
+
+            h4{
+                position: absolute;
+                top: 62%;
+                left: 50%;
+                transform: translateX(-50%);
+                z-index: 1;
+                font-weight: 500;
+                color: $primary-color;
+                text-transform: uppercase;
             }
         }
     }

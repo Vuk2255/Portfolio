@@ -16,6 +16,7 @@
         .bottom-name{
             font-weight: 600;
             font-size: 4rem;
+            color: $font-color;
         }
     
     #buttons{
@@ -23,7 +24,7 @@
 
         .button{
             padding: 15px;
-            color: black;
+            color: $font-color;
             font-family: $font;
         }
     }
@@ -31,12 +32,12 @@
         padding: 10px;
         
         a{
-            color: black;
+            color: $primary-color;
             font-weight: 500;
             font-size: 40px;
 
             &:hover{
-                color: $primary-color;
+                color: $secondary-color;
             }
         }
     }
