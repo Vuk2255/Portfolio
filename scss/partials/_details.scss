@@ -1,0 +1,44 @@
+#details{
+    width:100%;
+    border-bottom: 2px solid red;
+
+    #description{
+        height: 525px;
+        @include flexCenter;
+        flex-direction: column;
+        
+        .top-name{
+            font-weight: 600;
+            color: $font-color;
+            font-size: 7rem;
+        }
+
+        .bottom-name{
+            font-weight: 600;
+            font-size: 4rem;
+        }
+    
+    #buttons{
+        padding: 10px;
+
+        .button{
+            padding: 15px;
+            color: black;
+            font-family: $font;
+        }
+    }
+    #socials{
+        padding: 10px;
+        
+        a{
+            color: black;
+            font-weight: 500;
+            font-size: 40px;
+
+            &:hover{
+                color: $primary-color;
+            }
+        }
+    }
+    }
+}

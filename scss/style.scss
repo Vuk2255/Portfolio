@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import 'partials/defaults';
+@import 'partials/text';
+@import 'partials/variables';
+@import 'partials/header';
+@import 'partials/details';
+@import 'partials/about';
+@import 'partials/skills';
+
+body{
+    background-image: linear-gradient(to right, rgba(252, 247, 247, 0), rgb(246, 48, 41)), url(../../assets/img/background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: $font;
+}

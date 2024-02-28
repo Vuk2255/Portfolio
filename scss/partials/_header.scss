@@ -1,0 +1,34 @@
+header{
+    width: 100%;
+
+    #navigation{
+        width: 70%;
+        margin:0px auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        #logo{
+            width:30%;
+
+            img{
+                width: 55%;
+            }
+        }
+
+        #links{
+            ul{
+
+                li{
+                    display: inline-block;
+                    padding: 15px;
+
+                    a{
+                        color: $font-color;
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
