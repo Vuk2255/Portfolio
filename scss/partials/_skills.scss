@@ -1,6 +1,5 @@
 #wrapper-skills{
     width: 100%;
-    height: 900px;
     @include borderBottom;
 
     h2{
@@ -32,11 +31,6 @@
             box-shadow: 0 0 10px #0c0c0f;
             background-color: $primary-color;
             border-radius: 15px;
-            transition: transform .2s;
-
-            &:hover{
-                transform: scale(1.1);
-            }
 
             .top{
 
@@ -58,7 +52,6 @@
         position: relative;
         @include flexCenter;
         flex-wrap: wrap;
-        top: 80px;
         gap:70px;
 
         .circle{
@@ -68,11 +61,6 @@
             border-radius: 50%;
             color: white;
             background: #060606 linear-gradient(to right, transparent 30%, $primary-color);
-            transition: transform .2s;
-
-            &:hover{
-                transform: scale(1.1);
-            }
 
             h3{
                 position: absolute;

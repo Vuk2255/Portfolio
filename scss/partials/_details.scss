@@ -11,12 +11,16 @@
             font-weight: 600;
             color: $font-color;
             font-size: 7rem;
+            animation-name: focus-in-expand;
+            animation-duration: 2s;
         }
 
         .bottom-name{
             font-weight: 600;
             font-size: 4rem;
             color: $font-color;
+            animation-name: focus-in-expand;
+            animation-duration: 3s;
         }
     
     #buttons{

@@ -1,0 +1,1210 @@
+@import 'partials/variables';
+
+@media screen and (max-width: 1503px) {
+
+    #contact{
+
+        #contact-wrapper{
+
+            #contact-right{
+                margin-left: 20px;
+                margin-top: 0px;
+            }
+        }
+    }
+    
+}
+
+@media screen and (max-width: 1443px) {
+    header{
+
+        #navigation{
+
+            #logo{
+
+                img{
+
+                    width: 50%;
+                }
+            }
+
+            #links{
+
+                ul{
+
+                    li{
+
+                        a{
+                            font-size: 30px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #wrapper{
+
+        h2{
+            font-size: 40px;
+        }
+
+        #about{
+
+            .block{
+
+                .title{
+
+                    h3{
+                        font-size: 25px;
+                    }
+
+                }
+
+                #info{
+                    
+                    .me{
+                        
+                        p{
+                            font-size: 20px;
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+
+    #wrapper-skills{
+
+        h2{
+            font-size: 35px;
+        }
+    }
+
+    #contact{
+
+        h2{
+            font-size: 35px;
+        }
+    }
+
+    #projects{
+
+        h2{
+            font-size: 35px;
+        }
+
+        #projects-wrapper{
+
+            .block3{
+
+                h3{
+                    font-size: 25px;
+                }
+            }
+        }
+    }
+
+    #contact{
+
+        #contact-wrapper{
+
+            #contact-right{
+                margin-left: 0px;
+                margin-top: 20px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1170px) {
+    header{
+
+        #navigation{
+
+            #logo{
+
+                img{
+
+                    width: 50%;
+                }
+            }
+
+            #links{
+
+                ul{
+
+                    li{
+
+                        a{
+                            font-size: 25px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #wrapper{
+
+        h2{
+            font-size: 35px;
+        }
+
+        #about{
+
+            .block{
+
+                .title{
+
+                    h3{
+                        font-size: 20px;
+                    }
+
+                }
+
+                #info{
+                    
+                    .me{
+                        
+                        p{
+                            font-size: 15px;
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+
+    #wrapper-skills{
+
+        #skills{
+            width: 100%;
+        }
+    }
+
+    #projects {
+
+        h2{
+            font-size: 30px;
+        }
+    }
+
+    #contact{
+
+        h2{
+            font-size: 30px;
+        }
+    }
+}
+
+@media screen and (max-width: 1030px) {
+
+    header{
+
+        #navigation{
+
+            #logo{
+
+                img{
+
+                    width: 50%;
+                }
+            }
+
+            #links{
+
+                ul{
+
+                    li{
+
+                        a{
+                            font-size: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #wrapper-skills{
+
+        #progress{
+
+            .circle{
+                width: 180px;
+                height: 180px;
+            }
+        }
+
+    }
+
+    #wrapper{
+
+        h2{
+            font-size: 30px;
+        }
+
+        #about{
+
+            h2{
+                font-size: 20px;
+            }
+
+            .block{
+
+                .title{
+
+                    h3{
+                        font-size: 18px;
+                    }
+
+                }
+
+                #info{
+                    
+                    .me{
+                        
+                        p{
+                            font-size: 13px;
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+
+    #projects {
+
+        h2{
+            font-size: 27px;
+        }
+
+        #projects-wrapper{
+
+            .block3{
+
+                h3{
+                    font-size: 21px;
+                }
+            }
+        }
+    }
+
+    #contact{
+
+        h2{
+            font-size: 27px;
+        }
+    }
+}
+
+@media screen and (max-width: 930px) {
+
+    header{
+
+        #navigation{
+
+            #logo{
+                width: 30%;
+            }
+
+            #links{
+
+                ul{
+
+                    li{
+
+                        a{
+                            font-size: 18px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #projects{
+
+        h2{
+            font-size: 22px;
+        }
+
+        #projects-wrapper{
+
+            .block3{
+
+                h3{
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+
+    #wrapper-skills{
+
+        h2{
+            font-size: 27px;
+        }
+
+        #skills{
+            flex-direction: column;
+            align-items: center;
+            padding: 15px;
+
+            .block2{
+                width: 50%;
+                align-self: center;
+            }
+        }
+
+        #progress{
+
+            .circle{
+                display: none;
+            }
+        }
+
+    }
+
+    #contact{
+
+        h2{
+            font-size: 22px;
+        }
+
+        #contact-info{
+
+            p{
+                font-size: 18px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 870px){
+
+    #wrapper{
+        
+        h2{
+            font-size: 21px;
+        }
+
+        #about{
+
+            .block{
+
+                .title{
+
+                    h3{
+                        font-size: 16px;
+                    }
+                }
+
+            }
+        }
+    }
+
+    #details{
+
+        #description{
+
+            .top-name{
+                font-size: 6rem;
+            }
+
+            .bottom-name{
+                font-size: 4rem;
+            }
+        }
+    }
+
+    #wrapper-skills{
+
+        h2{
+            font-size: 27px;
+        }
+
+        #progress{
+            gap: 50px;
+        }
+
+    }
+}
+
+@media screen and (max-width: 790px){
+    header{
+
+        #navigation{
+            flex-direction: column;
+
+            #logo{
+
+                a{
+                    
+                    img{
+                        width: 70%;
+                    }
+                }
+            }
+
+            #links{
+
+                ul{
+
+                    li{
+
+                        a{
+                            font-size: 25px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #wrapper{
+        
+        h2{
+            font-size: 20px;
+        }
+
+        #about{
+
+            .block{
+
+                .title{
+
+                    h3{
+                        font-size: 14px;
+                    }
+                }
+
+            }
+        }
+    }
+
+    #wrapper-skills{
+
+        #progress{
+            flex-wrap: nowrap;
+        }
+    }
+
+    #projects{
+
+        #projects-wrapper{
+            flex-direction: column;
+        }
+    }
+
+    #wrapper-skills{
+
+        #skills{
+            padding: 15px;
+        }
+
+        #progress{
+            display: none;
+        }
+    }
+
+    #wrapper-skills{
+        
+        h2{
+            width: 30%;
+            font-size: 25px;
+        }
+    }
+
+    #projects{
+        
+        h2{
+            width: 30%;
+            font-size: 25px;
+        }
+    }
+
+    #contact{
+        
+        h2{
+            width: 30%;
+            font-size: 25px;
+        }
+    }
+
+    #projects{
+
+        #projects-wrapper{
+
+            .block3{
+                width: 100%;
+            }
+        }
+    }
+
+
+    #contact{
+
+        #contact-wrapper{
+
+            #contact-right{
+                display: none;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 708px){
+    header{
+
+        #navigation{
+            flex-direction: column;
+
+            #logo{
+
+                a{
+                    
+                    img{
+                        width: 70%;
+                    }
+                }
+            }
+
+            #links{
+
+                ul{
+
+                    li{
+
+                        a{
+                            font-size: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #details{
+
+        #description{
+
+            .top-name{
+                font-size: 5rem;
+            }
+
+            .bottom-name{
+                font-size: 3rem;
+            }
+        }
+    }
+
+    #wrapper{
+        
+        h2{
+            width: 30%;
+            font-size: 25px;
+        }
+
+        #about{
+
+            .block{
+
+                figure{
+
+                    img{
+                        width: 100%;
+                    }
+                }
+
+                #info{
+                    .me{
+                        p{
+                            font-size: 10px;
+                        }
+
+                        h4{
+                            font-size: 15px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 599px){
+    header{
+
+        #navigation{
+
+            #logo{
+
+                a{
+                    
+                    img{
+                        width: 70%;
+                    }
+                }
+            }
+
+            #links{
+
+                ul{
+
+                    li{
+
+                        a{
+                            font-size: 18px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #projects{
+
+        h2{
+            font-size: 20px;
+        }
+    }
+
+    #contact{
+
+        h2{
+            font-size: 20px;
+        }
+    }
+
+    footer{
+        #left{
+            #socials2{
+                a{
+                    font-size: 20px;
+                }
+            }
+        }
+
+        #middle{
+            p{
+                font-size: 15px;
+            }
+        }
+
+        #right{
+            #socials3{
+                a{
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 555px){
+
+    header{
+
+        #navigation{
+
+            #logo{
+
+                a{
+                    
+                    img{
+                        width: 70%;
+                    }
+                }
+            }
+
+            #links{
+
+                ul{
+
+                    li{
+
+                        a{
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #details{
+
+        #description{
+
+            .top-name{
+                font-size: 4rem;
+            }
+
+            .bottom-name{
+                font-size: 2rem;
+            }
+        }
+    }
+
+    #wrapper{
+        
+        h2{
+            width: 40%;
+        }
+
+        #about{
+            flex-direction: column;
+
+            .block{
+                width: inherit;
+                margin-left: -50px;
+
+                figure{
+
+                    img{
+                        width: 290px;
+                    }
+                }
+
+                .title{
+                    width: 300px;
+                    margin-left: 0px;
+
+                    h3{
+                        width: inherit;
+                    }
+                }
+
+                #info{
+                    
+                    .me{
+                        width: 300px;
+                        
+                        p{
+                            font-size: 15px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #wrapper-skills{
+        h2{
+            width: 40%;
+        }
+    }
+
+    #projects{
+
+        h2{
+            font-size: 15px;
+        }
+    }
+
+    #contact{
+
+        h2{
+            width: 50%;
+        }
+    }
+
+    footer{
+        #left{
+            #socials2{
+                a{
+                    font-size: 15px;
+                }
+            }
+        }
+
+        #middle{
+            p{
+                font-size: 10px;
+            }
+        }
+
+        #right{
+            #socials3{
+                a{
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 460px){
+    header{
+
+        #navigation{
+
+            #logo{
+
+                a{
+                    
+                    img{
+                        width: 70%;
+                    }
+                }
+            }
+
+            #links{
+
+                ul{
+
+                    li{
+
+                        a{
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #details{
+
+        #description{
+
+            .top-name{
+                font-size: 3rem;
+            }
+
+            .bottom-name{
+                font-size: 1rem;
+            }
+        }
+    }
+
+    #wrapper-skills{
+
+        #skills{
+
+            .block2{
+                width: 70%;
+            }
+        }
+    }
+
+    #wrapper{
+
+        #about{
+
+            .block{
+                margin-right: -50px;
+
+                figure{
+                    margin-left: -30px;
+                }
+
+                .title{
+                    margin-left: -30px;
+                }
+
+                #info{
+                    width: 150px;
+
+                    .me{
+                        width: 400px;
+                        margin-left: -80px;
+                    }
+
+                }
+            }
+        }
+
+    }
+
+    #contact{
+        #contact-wrapper{
+
+            #contact-left{
+                border: none;
+                background-color: transparent;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 448px){
+    #wrapper{
+
+        #about{
+
+            .block{
+                margin-left: -90px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 424px){
+    #wrapper{
+
+        #about{
+
+            .block{
+
+                #info{
+
+                    .me{
+                        margin-left: 0px;
+                        width: 250px;
+
+                        p{
+                            font-size: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 402px){
+    header{
+
+        #navigation{
+            width: 300px;
+        }
+    }
+}
+
+@media screen and (max-width: 386px){
+    #details{
+
+        #description{
+
+            #buttons{
+
+                .button{
+                    padding: 8px 16px;
+                }
+            }
+        }
+    }
+
+    #wrapper{
+
+        h2{
+            width: 60%;
+        }
+
+        #about{
+
+            .block{
+                margin-left: -110px;
+            }
+        }
+    }
+
+    #wrapper-skills{
+
+        #skills{
+
+            .block2{
+                width: 90%;
+            }
+        }
+    }
+
+    #projects{
+        
+        h2{
+            font-size: 12px;
+        }
+    }
+
+    #contact{
+
+        #contact-wrapper{
+
+            #contact-left{
+
+                form{
+                    padding: 0px;
+                }
+            }
+        }
+    }
+
+    footer{
+
+        #middle{
+
+            p{
+                font-size: 8px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 352px){
+
+    #details{
+
+        #description{
+
+            .top-name{
+                font-size: 2rem;
+            }
+        }
+    }
+    
+    header{
+
+        #navigation{
+
+            #logo{
+                width: 40%;
+                margin-left: 40px;
+            }
+        }
+    }
+
+    #wrapper{
+
+        #about{
+
+            .block{
+                margin-left: -160px;
+
+                figure{
+                    margin-left: 0px;
+
+                    &::before{
+                        border: none;
+                    }
+
+                    img{
+                        width: 250px;
+                    }
+                }
+            }
+        }
+    }
+
+    #wrapper-skills{
+
+        h2{
+            width: 70%;
+        }
+    }
+
+    #projects{
+
+        h2{
+            width: 70%;
+            font-size: 15px;
+        }
+    }
+
+    footer{
+
+        #middle{
+
+            p{
+                font-size: 7px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 322px){
+    header{
+
+        #navigation{
+            width: 100%;
+        }
+    }
+
+    #wrapper{
+
+        #about{
+            padding: 0px;
+
+            .block{
+                margin-left: -180px;
+            }
+        }
+    }
+
+    footer{
+
+        #left{
+
+            #socials2{
+
+                a{
+                    font-size: 10px;
+                }
+            }
+        }
+
+        #right{
+
+            #socials3{
+
+                a{
+                    font-size: 10px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 297px){
+    header{
+
+        #navigation{
+
+            #links{
+
+                ul{
+
+                    li{
+
+                        a{
+                            font-size: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #details{
+
+        #description{
+
+            #buttons{
+                padding: 0px;
+            }
+        }
+    }
+
+    #wrapper{
+
+        #about{
+            padding: 0px;
+
+            .block{
+                margin-left: -185px;
+            }
+        }
+    }
+
+    #contact{
+        h2{
+            width: 60%;
+            font-size: 17px;
+        }
+    }
+}
