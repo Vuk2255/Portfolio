@@ -354,6 +354,7 @@
             flex-direction: column;
             align-items: center;
             padding: 15px;
+            gap: 50px;
 
             .block2{
                 width: 50%;
@@ -984,8 +985,11 @@
 
             #buttons{
 
-                .button{
+                a{
+    
+                    .button{
                     padding: 8px 16px;
+                    }
                 }
             }
         }
@@ -1064,7 +1068,7 @@
 
             #logo{
                 width: 40%;
-                margin-left: 40px;
+                margin-left: 45px;
             }
         }
     }
@@ -1185,7 +1189,13 @@
         #description{
 
             #buttons{
-                padding: 0px;
+
+                a{
+
+                    .button{
+                        padding: 0px;
+                    }
+                }
             }
         }
     }

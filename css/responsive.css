@@ -127,6 +127,7 @@
     flex-direction: column;
     align-items: center;
     padding: 15px;
+    gap: 50px;
   }
   #wrapper-skills #skills .block2 {
     width: 50%;
@@ -377,7 +378,7 @@
   }
 }
 @media screen and (max-width: 386px) {
-  #details #description #buttons .button {
+  #details #description #buttons a .button {
     padding: 8px 16px;
   }
   #wrapper h2 {
@@ -405,7 +406,7 @@
   }
   header #navigation #logo {
     width: 40%;
-    margin-left: 40px;
+    margin-left: 45px;
   }
   #wrapper #about .block {
     margin-left: -160px;
@@ -451,7 +452,7 @@
   header #navigation #links ul li a {
     font-size: 10px;
   }
-  #details #description #buttons {
+  #details #description #buttons a .button {
     padding: 0px;
   }
   #wrapper #about {
